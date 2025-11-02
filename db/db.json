@@ -1,18 +1,50 @@
 {
-  "usuarios": [
+  "eventos": [
     {
-      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
-      "login": "admin",
-      "senha": "123",
-      "nome": "Administrador do Sistema",
-      "email": "admin@abc.com"
+      "id": 101,
+      "titulo": "Halloween da Escola - Edição 2025",
+      "data": "31/10/2025",
+      "local": "Quadra Poliesportiva",
+      "descricao": "Festa a fantasia com concurso de melhor traje e barracas temáticas. Obrigatória a doação de 1kg de alimento não-perecível.",
+      "status": "Ativo"
     },
     {
-      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
-      "login": "user",
-      "senha": "123",
-      "nome": "Usuario Comum",
-      "email": "user@abc.com"
+      "id": 102,
+      "titulo": "Cerimônia de Formatura - Turma 2024",
+      "data": "15/12/2025",
+      "local": "Auditório Principal",
+      "descricao": "Entrega de diplomas e festa de encerramento para os formandos do 3º ano do Ensino Médio. Venda de convites antecipada.",
+      "status": "Em Planejamento"
+    },
+    {
+      "id": 103,
+      "titulo": "Carnaval Cultural: Marchinhas e História",
+      "data": "20/02/2026",
+      "local": "Pátio Central",
+      "descricao": "Resgate da história do carnaval brasileiro com foco em marchinhas tradicionais. Traga seu instrumento!",
+      "status": "Encerrado"
+    }
+  ],
+  "pre-matriculas": [
+    {
+      "id": 201,
+      "nomeAluno": "João Silva",
+      "dataNascimento": "12/03/2010",
+      "serieDesejada": "1º Ensino Médio",
+      "nomeResponsavel": "Ana Silva",
+      "telefone": "(31) 99876-5432",
+      "dataEnvio": "25/10/2025",
+      "status": "Pendente"
+    },
+    {
+      "id": 202,
+      "nomeAluno": "Maria Oliveira",
+      "dataNascimento": "05/08/2008",
+      "serieDesejada": "3º Ensino Médio",
+      "nomeResponsavel": "Roberto Oliveira",
+      "telefone": "(31) 98765-4321",
+      "dataEnvio": "18/10/2025",
+      "status": "Aprovada"
     }
   ]
 }
