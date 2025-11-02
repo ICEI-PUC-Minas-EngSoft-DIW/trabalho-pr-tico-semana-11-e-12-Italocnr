@@ -77,6 +77,14 @@ header {
     margin-bottom: 10px;
 }
 
+.text-primary-color {
+    color: #003366 !important;
+}
+
+.bg-primary-color {
+    background-color: #003366 !important;
+}
+
 #detalhes-projeto p.lead {
     font-size: 1.25rem;
     max-width: 800px;
